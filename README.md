@@ -1,7 +1,7 @@
 # Tarea 1 — Clon de Sección de Sitio Web
  
 **Estudiante:** Joshua Obando Gonzalez 
-**Curso:** Desarrollo Web — HTML & CSS  
+**Curso:** Multimedios 
 **Sitio clonado:** Blog de viajes/multimedios (diseño provisto por el profesor)
  
 ---
