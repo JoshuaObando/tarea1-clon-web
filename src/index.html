@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarea 1 - Clon Web</title>
+    <title>Tarea 1 Joshua</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <main>
+
+    <!-- Sección superior, tres cards con imagen de fondo -->
     <section class="cards">
         <article class="card">
-            <img src="Imagenes/Montanas-Lago.jpg" alt="Montanas y lago">
+            <img src="Imagenes/Montanas-Lago.jpg" alt="Montañas y lago con paisaje natural">
             <div class="card-content">
                 <span class="tag lifestyle">LIFESTYLE</span>
                 <h2>The Most Popular Places to Visit in the World</h2>
@@ -21,54 +22,141 @@
             </div>
         </article>
         <article class="card">
-            <img src="Imagenes/Yoga.jpg" alt="Yoga">
+            <img src="Imagenes/Yoga.jpg" alt="Persona practicando yoga al aire libre">
             <div class="card-content">
                 <span class="tag health">HEALTH</span>
                 <h2>Does Exercise Help with your Productivity</h2>
                 <p>Health Chat</p>
             </div>
         </article>
-
-        <!-- Segunda sección -->>
         <article class="card">
-            <img src="Imagenes/Gaming.jpg" alt="Gaming">
+            <img src="Imagenes/Gaming.jpg" alt="Persona jugando videojuegos">
             <div class="card-content">
                 <span class="tag gaming">GAMING</span>
                 <h2>Can Playing Video Games Reduce Stress?</h2>
-                <p>Game play</p>
+                <p>Game Play</p>
             </div>
         </article>
     </section>
 
-    <!-- Seccion de formulario -->>
+    <!-- Sección central, imagen grande y el newsletter -->
     <section class="bottom">
         <article class="big-card">
-            <img src="Imagenes/Viaje-acuatico.jpg" alt="paseo acuatico">
+            <img src="Imagenes/Viaje-acuatico.jpg" alt="Paseo acuático en lago de montaña">
         </article>
-
-         <aside class="newsletter">
-    <h2>Subscribe to our Newsletter</h2>
-    <p>No Spam. Only one email per week.</p>
-
-    <form>
-      <input type="text" placeholder="First Name">
-      <input type="email" placeholder="Email Address">
-      <button type="submit">SUBSCRIBE</button>
-    </form>
-
-    <ul>
-        <h3>Categories</h3>
-      <li><a >Lifestyle</a></li>
-      <li><a >Health</a></li>
-      <li><a >Gaming</a></li>
-      <li><a >Travel</a></li>
-      <li><a >Food</a></li>
-      <li><a >Business</a></li>
-    </ul>
-  </aside>
+        <aside class="newsletter">
+            <h3>Subscribe to our Newsletter</h3>
+            <p>No Spam. Only one email per week.</p>
+            <form>
+                <input type="text" placeholder="First Name">
+                <input type="email" placeholder="Email Address">
+                <button type="submit">SUBSCRIBE</button>
+            </form>
+        </aside>
     </section>
 
+    <!-- Sección principal, artículo destacado y sidebar -->
+    <main class="main-layout">
 
+        
+        <div class="articles-column">
+
+            <!-- Artículo destacado -->
+            <article class="featured-article">
+                <span class="category-label">TRAVEL</span>
+                <h1>Where to Visit on Your Next Vacation</h1>
+                <p class="meta">Written by Jane Doe on December 02, 2019</p>
+                <p class="excerpt">
+                    There are thousands of places you can visit on your next vacation. In this post
+                    we'll show you the top destinations to consider for your next adventure...
+                </p>
+                <a href="#" class="read-more">Continue Reading ↗</a>
+            </article>
+
+            <!-- Grid 2x2 de cards en el blog -->
+            <section class="blog-grid">
+
+                <article class="blog-card">
+                    <img src="Imagenes/Fogata.jpg" alt="Amigos reunidos alrededor de una fogata en la playa">
+                    <h3>Time for the Beach and Friends</h3>
+                    <p>Many people live so close to amazing scenary, yet they rarely take...</p>
+                    <a href="#" class="read-more">Continue Reading ↗</a>
+                </article>
+
+                <article class="blog-card">
+                    <img src="Imagenes/Lago-estrellado.jpeg" alt="Lago tranquilo bajo el cielo estrellado de noche">
+                    <h3>Are you Ready for an Experience?</h3>
+                    <p>Check out these awesome places you'll want to visit as you set your...</p>
+                    <a href="#" class="read-more">Continue Reading ↗</a>
+                </article>
+
+                <article class="blog-card">
+                    <img src="Imagenes/Ninosenbosque.jpeg" alt="Niños jugando en un bosque">
+                    <h3>Take Me Back in Time</h3>
+                    <p>How nice would that be to go back in time and enjoy the youth...</p>
+                    <a href="#" class="read-more">Continue Reading ↗</a>
+                </article>
+
+                <article class="blog-card">
+                    <img src="Imagenes/athlete.jpg" alt="Atleta preparándose para correr">
+                    <h3>Here are the Best Ways to Train</h3>
+                    <p>Learn about the best ways to train to get the most of your workout...</p>
+                    <a href="#" class="read-more">Continue Reading ↗</a>
+                </article>
+
+            </section>
+        </div>
+
+       
+        <aside class="sidebar">
+
+            <!-- Categorías -->
+            <section class="sidebar-section">
+                <h3>Categories</h3>
+                <ul class="category-list">
+                    <li><a href="#">Lifestyle</a> <span>32</span></li>
+                    <li><a href="#">Health</a>    <span>41</span></li>
+                    <li><a href="#">Gaming</a>    <span>27</span></li>
+                    <li><a href="#">Travel</a>    <span>21</span></li>
+                    <li><a href="#">Food</a>      <span>15</span></li>
+                    <li><a href="#">Business</a>  <span>28</span></li>
+                </ul>
+            </section>
+
+            <!-- Posts recientes -->
+            <section class="sidebar-section">
+                <h3>Recent Posts</h3>
+                <ul class="recent-posts">
+                    <li class="recent-post">
+                        <img src="Imagenes/Montanas-Lago.jpg" alt="Destinos top para visitar en el mundo">
+                        <div>
+                            <a href="#">Top Destinations to Visit in the World</a>
+                            <p>January 02, 2021</p>
+                        </div>
+                    </li>
+                    <li class="recent-post">
+                        <img src="Imagenes/Gaming.jpg" alt="Experiencia de gaming 3D">
+                        <div>
+                            <a href="#">Experience the Future of the 3d Gaming Experience</a>
+                            <p>January 04, 2021</p>
+                        </div>
+                    </li>
+                    <li class="recent-post">
+                        <img src="Imagenes/Viaje-acuatico.jpg" alt="Viaje al fin del mundo">
+                        <div>
+                            <a href="#">Take a Trip to The End of The World</a>
+                            <p>January 05, 2021</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+        </aside>
     </main>
+
+    <footer>
+        <p>© 2021 Travel Blog. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
